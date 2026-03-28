@@ -8,14 +8,33 @@
 %	CONTENT
 %-------------------------------------------------------------------------------
 
+% Custom entry with a dedicated logo column and a text column
+% Usage: \cventrywithlogo{<logo-path>}{<industry>}{<company>}{<location>}{<date>}{<description>}
+\newcommand*{\cventrywithlogo}[6]{%
+  \vspace{-2.0mm}
+  \setlength\tabcolsep{0pt}
+  \setlength{\extrarowheight}{0pt}
+  \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} C{1.45cm} L{\textwidth - 1.45cm}}
+    \raisebox{-0.5\height}{\includegraphics[height=0.95cm]{#1}} &
+    \parbox[c][0.95cm][c]{\linewidth}{%
+      \begin{tabular*}{\linewidth}{@{\extracolsep{\fill}} L{\linewidth - 4.5cm} R{4.5cm}}
+        \entrytitlestyle{#3} & \entrylocationstyle{#4} \\
+        \entrypositionstyle{#2} & \entrydatestyle{#5} \\
+      \end{tabular*}%
+    } \\
+    \multicolumn{2}{L{\textwidth}}{\descriptionstyle{#6}}
+  \end{tabular*}%
+}
+
 \begin{cventries}
 
 %---------------------------------------------------------
-  \cventry
-    {Enterprise Data Catalog} % Job title
-    {data.world} % Organization
-    {Austin, Texas} % Location
-    {Nov. 2017 - Present} % Date(s)
+  \cventrywithlogo
+    {./images/kifiya_logo.jpeg} % Logo
+    {Fintech} % Industry
+    {Kifiya Financial Technologies} % Company
+    {Addis Ababa, Ethiopia} % Location
+    {Sept. 2023 - Present} % Date(s)
     {
       \begin{cvsubentries}
        \cvsubentry
@@ -53,16 +72,17 @@
     }
 
 %---------------------------------------------------------
-  \cventry
-    {Design Agency} % Job title
-    {Metalab} % Organization
-    {Victoria, British Columbia} % Location
-    {Feb 2017 - Nov 2017} % Date(s)
+  \cventrywithlogo
+    {./images/taskMoby_logo.jpg} % Logo
+    {Digital Marketplace} % Industry
+    {Taskmoby} % Company
+    {Addis Ababa, Ethiopia} % Location
+    {Aug. 2022 - Sep. 2023} % Date(s)
     {
       \begin{cvsubentries}
        \cvsubentry
          {Junior Software Engineer}
-         {Feb 2017 - Nov 2017}
+         {Feb. 2017 - Nov. 2017}
          {
           \begin{cvitems} % Description(s) of tasks/responsibilities
             \item {Implemented a redesign of the company’s marketing website, translating design specifications into a modern, engaging, and high-performing user experience.}
@@ -72,16 +92,17 @@
     }
 
 %---------------------------------------------------------
-  \cventry
-    {Job Placement Network} % Job title
-    {Andela} % Organization
-    {Nairobi, Kenya} % Location
-    {Feb 2016 - Jan 2020} % Date(s)
+  \cventrywithlogo
+    {./images/flocash_logo.png} % Logo
+    {Fintech} % Industry
+    {Flocash} % Company
+    {London, United Kingdom} % Location
+    {May. 2020 - Aug. 2022} % Date(s)
     {
       \begin{cvsubentries}
        \cvsubentry
           {Fellow}
-          {Feb 2016 - Jan 2020}
+          {Feb. 2016 - Jan. 2020}
           {
             \begin{cvitems} % Description(s) of tasks/responsibilities
               \item {Completed an intensive training course on the JavaScript ecosystem and essential programming tools, building a strong foundation in modern web development.}
@@ -94,4 +115,27 @@
 
 %---------------------------------------------------------
 
+%---------------------------------------------------------
+  \cventrywithlogo
+    {./images/mgSolutions_logo.png} % Logo
+    {Digital Solutions} % Industry
+    {MG Software Solutions} % Company
+    {Addis Ababa, Ethiopia} % Location
+    {May. 2020 - Aug. 2022} % Date(s)
+    {
+      \begin{cvsubentries}
+       \cvsubentry
+          {Fellow}
+          {Feb. 2016 - Jan. 2020}
+          {
+            \begin{cvitems} % Description(s) of tasks/responsibilities
+              \item {Completed an intensive training course on the JavaScript ecosystem and essential programming tools, building a strong foundation in modern web development.}
+              \item {Received targeted training in soft skills crucial for success in professional environments, including communication, teamwork, adaptability, and stakeholder management.}
+              \item {Actively participated in the recruitment and onboarding of new hires, providing mentorship and guidance to accelerate their integration and professional growth within the organization.}
+            \end{cvitems}
+          }
+      \end{cvsubentries}
+    }
+
+%---------------------------------------------------------
 \end{cventries}
