@@ -1,0 +1,139 @@
+%!TEX encoding = UTF-8 Unicode
+% Awesome CV LaTeX Template for Cover Letter
+%
+% This template has been downloaded from:
+% https://github.com/posquit0/Awesome-CV
+%
+% Authors:
+% Claud D. Park <posquit0.bj@gmail.com>
+% Lars Richter <mail@ayeks.de>
+%
+% Template license:
+% CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+%
+
+
+%-------------------------------------------------------------------------------
+% CONFIGURATIONS
+%-------------------------------------------------------------------------------
+% A4 paper size by default, use 'letterpaper' for US letter
+\documentclass[11pt, a4paper]{awesome-cv}
+
+% Configure page margins with geometry
+\geometry{left=1.4cm, top=.8cm, right=1.4cm, bottom=1.8cm, footskip=.5cm}
+
+% Color for highlights
+% Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
+%                 awesome-nephritis, awesome-concrete, awesome-darknight
+\colorlet{awesome}{awesome-red}
+% Uncomment if you would like to specify your own color
+% \definecolor{awesome}{HTML}{CA63A8}
+
+% Colors for text
+% Uncomment if you would like to specify your own color
+% \definecolor{darktext}{HTML}{414141}
+% \definecolor{text}{HTML}{333333}
+% \definecolor{graytext}{HTML}{5D5D5D}
+% \definecolor{lighttext}{HTML}{999999}
+% \definecolor{sectiondivider}{HTML}{5D5D5D}
+
+% Set false if you don't want to highlight section with awesome color
+\setbool{acvSectionColorHighlight}{true}
+
+% If you would like to change the social information separator from a pipe (|) to something else
+\renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
+
+
+%-------------------------------------------------------------------------------
+%	PERSONAL INFORMATION
+%	Comment any of the lines below if they are not required
+%-------------------------------------------------------------------------------
+% Available options: circle|rectangle,edge/noedge,left/right
+\photo[circle,noedge,left]{./profile}
+\name{Kinuthia}{Ndung'u}
+\position{Software Engineer}
+\address{Avenida Infante Dom Henrique 89, 1900-263, Lisbon}
+
+\mobile{+351 92 104 84 42}
+\email{kin.ndungu@gmail.com}
+%\dateofbirth{January 1st, 1970}
+% \homepage{www.posquit0.com}
+\github{kndungu}
+\linkedin{kndungu}
+% \gitlab{gitlab-id}
+% \stackoverflow{SO-id}{SO-name}
+% \twitter{@twit}
+% \skype{skype-id}
+% \reddit{reddit-id}
+% \medium{madium-id}
+% \kaggle{kaggle-id}
+% \googlescholar{googlescholar-id}{name-to-display}
+%% \firstname and \lastname will be used
+% \googlescholar{googlescholar-id}{}
+% \extrainfo{extra information}
+
+% \quote{``Be the change that you want to see in the world."}
+
+
+%-------------------------------------------------------------------------------
+%	LETTER INFORMATION
+%	All of the below lines must be filled out
+%-------------------------------------------------------------------------------
+% The company being applied to
+\recipient
+  {DataCamp}
+  {350 5th Ave, Fl 77,\\New York, New York, 10118}
+% The date on the letter, default is the date of compilation
+\letterdate{\today}
+% The title of the letter
+\lettertitle{Job Application for Senior Full Stack Engineer}
+% How the letter is opened
+\letteropening{Dear Hiring Team,}
+% How the letter is closed
+\letterclosing{Sincerely,}
+% Any enclosures with the letter
+% \letterenclosure[Attached]{Curriculum Vitae}
+
+
+%-------------------------------------------------------------------------------
+\begin{document}
+
+% Print the header with above personal information
+% Give optional argument to change alignment(C: center, L: left, R: right)
+\makecvheader[R]
+
+% Print the footer with 3 arguments(<left>, <center>, <right>)
+% Leave any of these blank if they are not needed
+\makecvfooter
+  {}
+  {}
+  {}
+
+% Print the title with above letter information
+\makelettertitle
+
+%-------------------------------------------------------------------------------
+%	LETTER CONTENT
+%-------------------------------------------------------------------------------
+\begin{cvletter}
+
+\lettersection{How it started}
+In the second year of my Biochemistry undergraduate studies, MIT and Harvard partnered to launch edx; an online platform through which anyone could take some of their courses for free. I was obsessed with MIT growing up and jumped at the opportunity to take one of their courses, just to see if I could. That course was 6.00x: Introduction to Computer Science and Programming and it was one of the hardest things I had ever done, I was instantly hooked. Afterwards I took Harvard's version of the same course and later multiple programming courses on edx, Coursera, Udacity and Udemy.
+
+\lettersection{Early Career}
+While in my final year of university Andela launched in Kenya with a unique proposition, they'd teach you how to code then place you in jobs at top US companies. It was too good an opportunity to pass up. At Andela I found structure, I was no longer learning anything and everything that piqued my interest but rather the most in demand skills, industry best practices, and it gave me an opportunity to practice my soft skills. Though my first placement was short lived, I got valuable experience that was instrumental in my success at future placements.
+
+\lettersection{Finding a rhythm}
+Eventually I got to work with some truly exceptional managers and teammates who provided not only a challenging environment that promoted growth, but also a safe space where one could fail and learn. Here my skills and responsibilities grew until I became a key member of the team.
+
+\lettersection{What I offer}
+I'm now ready to move on to my next challenge. I'm particularly excited about the possibility of working with DataCamp because I believe having skills in Data Science and AI will become a basic competency that everyone will soon need. I'd bring with me all the knowledge and skills I've acquired in the last seven years of working in software development together with a genuine curiosity and willingness to learn more. I'm product focused and believe writing code is merely a means to end, what's most important is being able to work with the entire team to deliver a product that truly delights customers.
+
+\end{cvletter}
+
+
+%-------------------------------------------------------------------------------
+% Print the signature and enclosures with above letter information
+\makeletterclosing
+
+\end{document}
