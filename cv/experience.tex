@@ -21,8 +21,8 @@
         \entrytitlestyle{#3} & \entrylocationstyle{#4} \\
         \entrypositionstyle{#2} & \entrydatestyle{#5} \\
       \end{tabular*}%
-    } \\
-    \multicolumn{2}{L{\textwidth}}{\descriptionstyle{#6}}
+    } \\[3mm]
+    \multicolumn{2}{L{\textwidth}}{\hspace*{0.25cm}\parbox[t]{\dimexpr\textwidth-0.25cm\relax}{\descriptionstyle{#6}}}
   \end{tabular*}%
 }
 
@@ -35,6 +35,7 @@
     {Kifiya Financial Technologies} % Company
     {Addis Ababa, Ethiopia} % Location
     {Sept. 2023 - Present} % Date(s)
+    {The description now gets a small left indent matching the centered logo column rather than starting at the full table edge; I’m checking diagnostics to make sure the row still parses cleanly.}
     {
       \begin{cvsubentries}
        \cvsubentry

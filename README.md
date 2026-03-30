@@ -1,6 +1,6 @@
 #### Running on Codespaces
 
-  * Run `bash scripts/install-packages.sh`.
+  * Packages are installed automatically by `.devcontainer/devcontainer.json` during container setup.
   * Install the extension `LaTeX Workshop`.
   * Done, start editing. The PDF will be generated on save. You may need to run `Build LaTeX project` from the command palette (`Ctrl+Shift+P`) the first time.
   * When done editing, run `bash scripts/compress-pdf.sh` to reduce the PDF size.
