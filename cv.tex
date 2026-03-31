@@ -42,9 +42,17 @@
 
 % If you would like to change the social information separator from a pipe (|) to something else
 \renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
-\renewcommand{\acvHeaderAfterNameSkip}{1.2mm}
-\renewcommand{\acvHeaderAfterAddressSkip}{-.5mm}
+\renewcommand{\acvHeaderAfterNameSkip}{0.2mm}
+\renewcommand{\acvHeaderAfterAddressSkip}{-1.0mm}
 \renewcommand{\acvHeaderAfterPositionSkip}{\acvHeaderAfterAddressSkip}
+\renewcommand{\acvHeaderAfterSocialSkip}{1.0mm}
+\renewcommand{\acvHeaderSocialSep}{\enspace\textbar\enspace}
+\renewcommand{\acvHeaderPhotoCircleDim}{1.0cm}
+\renewcommand*{\headerfirstnamestyle}[1]{{\fontsize{25.3pt}{1.0em}\headerfontlight\color{graytext} #1}}
+\renewcommand*{\headerlastnamestyle}[1]{{\fontsize{25.3pt}{1.0em}\headerfont\bfseries\color{text} #1}}
+\renewcommand*{\headerpositionstyle}[1]{{\fontsize{7.5pt}{0.95em}\bodyfont\scshape\color{awesome} #1}}
+\renewcommand*{\headeraddressstyle}[1]{{\fontsize{7.8pt}{0.95em}\headerfont\itshape\color{lighttext} #1}}
+\renewcommand*{\headersocialstyle}[1]{{\fontsize{7pt}{0.9em}\headerfont\color{text} #1}}
 
 
 %-------------------------------------------------------------------------------

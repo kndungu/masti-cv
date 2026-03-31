@@ -403,6 +403,8 @@
 \newcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
 \newcommand{\acvHeaderAfterSocialSkip}{6mm}
 \newcommand{\acvHeaderAfterQuoteSkip}{5mm}
+\newcommand{\acvHeaderPhotoCircleDim}{1.3cm}
+\newcommand{\acvHeaderPhotoRectangleDim}{1.8cm}
 
 % Others
 \newcommand{\acvSectionTopSkip}{3mm}
@@ -434,8 +436,8 @@
     \ifthenelse{\isundefined{\@photo}}{}{%
       \newlength{\photodim}
       \ifthenelse{\equal{\@photoshape}{circle}}%
-        {\setlength{\photodim}{1.3cm}}%
-        {\setlength{\photodim}{1.8cm}}%
+        {\setlength{\photodim}{\acvHeaderPhotoCircleDim}}%
+        {\setlength{\photodim}{\acvHeaderPhotoRectangleDim}}%
       \ifthenelse{\equal{\@photoedge}{edge}}%
         {\def\@photoborder{darkgray}}%
         {\def\@photoborder{none}}%
@@ -446,14 +448,26 @@
   }
   \newlength{\headertextwidth}
   \newlength{\headerphotowidth}
+  \newlength{\headerleftphotowidth}
+  \newlength{\headerrightphotowidth}
   \ifthenelse{\isundefined{\@photo}}{
     \setlength{\headertextwidth}{\textwidth}
     \setlength{\headerphotowidth}{0cm}
+    \setlength{\headerleftphotowidth}{0cm}
+    \setlength{\headerrightphotowidth}{0cm}
   }{%
-    \setlength{\headertextwidth}{0.76\textwidth}
-    \setlength{\headerphotowidth}{0.24\textwidth}
+    \setlength{\headerphotowidth}{0.1728\textwidth}
+    \ifthenelse{\equal{\@photoalign}{left}}{%
+      \setlength{\headerleftphotowidth}{\headerphotowidth}
+      \setlength{\headerrightphotowidth}{0cm}
+      \setlength{\headertextwidth}{\textwidth-\headerleftphotowidth}
+    }{%
+      \setlength{\headerleftphotowidth}{0cm}
+      \setlength{\headerrightphotowidth}{\headerphotowidth}
+      \setlength{\headertextwidth}{\textwidth-\headerrightphotowidth}
+    }%
   }%
-  \begin{minipage}[c]{\headerphotowidth}%
+  \begin{minipage}[c]{\headerleftphotowidth}%
     \ifthenelse{\equal{\@photoalign}{left}}{\raggedright\drawphoto}{}
   \end{minipage}
   \begin{minipage}[c]{\headertextwidth}
@@ -591,7 +605,7 @@
       {}%
       {\headerquotestyle{\@quote\\}\vspace{\acvHeaderAfterQuoteSkip}}%
   \end{minipage}%
-  \begin{minipage}[c]{\headerphotowidth}%
+  \begin{minipage}[c]{\headerrightphotowidth}%
     \ifthenelse{\equal{\@photoalign}{right}}{\raggedleft\drawphoto}{}
   \end{minipage}
 }
