@@ -117,6 +117,10 @@
 % Enable if you want to make header or footer using fancyhdr
 \pagestyle{fancy}
 
+% Cover letter signature size
+\newlength{\acvSignatureHeight}
+\setlength{\acvSignatureHeight}{12mm}
+
 
 %-------------------------------------------------------------------------------
 %                Configuration for colors
@@ -789,7 +793,7 @@
   \vspace{6mm}
   \lettertextstyle{\@letterclosing}
   \begin{flushleft}
-    \includegraphics[scale=0.0625]{signature.png}
+    \includegraphics[height=\acvSignatureHeight]{signature.png}
   \end{flushleft}
   \letternamestyle{\@firstname\ \@lastname}
   % \ifthenelse{\isundefined{\@letterenclosure}}
