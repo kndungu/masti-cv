@@ -12,4 +12,5 @@
   * Update some packages: `sudo tlmgr update --self && sudo tlmgr update --all`.
   * Open with VSCode.
   * Install the extension `LaTeX Workshop`.
+  * Enable the repository hook once with `git config core.hooksPath .githooks`.
   * Done, start editing. The PDF will be generated on save.
