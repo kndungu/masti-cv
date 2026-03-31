@@ -21,5 +21,20 @@ fi
 # Update package lists
 sudo apt-get update
 
+# This for sure works but it takes too long
+# sudo apt-get install -y texlive-full luatex
+
 # Install required packages
-sudo apt-get install -y texlive-full luatex
+# texlive-full is ~5GB; these targeted packages cover everything awesome-cv.cls needs:
+#   texlive-latex-base/recommended: article class, geometry, fancyhdr, xcolor, hyperref, parskip, graphicx, etc.
+#   texlive-latex-extra:            enumitem, ragged2e, xifthen, tcolorbox, bookmark, etc.
+#   texlive-fonts-extra:            fontawesome5, roboto, sourcesanspro, unicode-math
+#   texlive-luatex:                 lualatex engine + fontspec support
+sudo apt-get install -y \
+  texlive-latex-base \
+  texlive-latex-recommended \
+  texlive-latex-extra \
+  texlive-fonts-recommended \
+  texlive-fonts-extra \
+  texlive-luatex \
+  luatexsudoe
