@@ -5,3 +5,9 @@ repo_root=$(git rev-parse --show-toplevel)
 
 cd "$repo_root"
 bash scripts/compress-pdf.sh
+
+for output in Mastewal_CV.pdf Mastewal_CoverLetter.pdf; do
+	if [ -f "$output" ]; then
+		git add -- "$output"
+	fi
+	done
