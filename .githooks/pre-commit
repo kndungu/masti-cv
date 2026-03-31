@@ -1,0 +1,17 @@
+#!/bin/sh
+set -eu
+
+repo_root=$(git rev-parse --show-toplevel)
+
+cd "$repo_root"
+echo "[pre-commit] Compressing generated PDFs"
+bash scripts/compress-pdf.sh
+
+for output in Mastewal_CV.pdf Mastewal_CoverLetter.pdf; do
+	if [ -f "$output" ]; then
+		git add -- "$output"
+		echo "[pre-commit] Staged $output"
+	fi
+done
+
+echo "[pre-commit] PDF compression hook completed"
