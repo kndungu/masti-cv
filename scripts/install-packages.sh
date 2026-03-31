@@ -36,5 +36,4 @@ sudo apt-get install -y \
   texlive-latex-extra \
   texlive-fonts-recommended \
   texlive-fonts-extra \
-  texlive-luatex \
-  luatexsudoe
+  texlive-luatex
