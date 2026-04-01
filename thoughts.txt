@@ -1,0 +1,88 @@
+I studied Computer Science during my undergraduate degree, and it fundamentally changed how I see the world.
+
+Before then, computers were little more than sophisticated entertainment devices to me—tools for playing music, watching films, or browsing the internet. I had no real sense of what lay beneath the surface. That changed quickly. During my studies, I learned not only how computers work, but how to program them and, more importantly, how to harness their power.
+
+I was struck by their capability. Complex calculations could be completed instantly; retrieving the 500th digit of pi was trivial. Beyond raw computational speed, what fascinated me was their consistency—machines that could execute millions of tasks with the same precision from the first to the last, operate continuously on schedule, and store vast amounts of knowledge. It felt like magic. The potential seemed limitless.
+
+And yet, despite decades of progress, the world remains far from perfect.
+
+Over time, I came to understand that a technology is not defined by how impressive it is in isolation, but by the impact it has on people’s lives. The steam engine did not transform society merely because it was an engineering marvel; it did so because it reshaped productivity and brought distant places closer together. Its true value lay in the tangible improvements it created.
+
+This realization shaped my career path. After graduating, I moved into product management, where I could focus not just on building technology, but on applying it meaningfully.
+
+In this role, I learned to bridge perspectives. Conversations with leadership helped me understand long-term vision and strategic direction, while discussions with employees on the ground revealed the daily frustrations and inefficiencies that often go unseen. It was in connecting these viewpoints that real opportunities emerged. Only after clearly defining the problem and envisioning a solution did technology enter the equation—as an enabler, not the starting point.
+
+When done well, the results were powerful: increased efficiency, improved job satisfaction, and better allocation of time—both within and beyond the workplace. I built my career around this process—understanding problems, crafting solutions, and bringing together teams to deliver them.
+
+For a time, this felt complete.
+
+Then I began to notice the early signs of a new technological shift.
+
+At first, it appeared as a curiosity—a simple text interface where one could ask questions and receive answers. But it quickly became clear that this was something fundamentally different. The responses were not only accurate, but nuanced and human-like. And that was only the beginning.
+
+Soon came code generation, image creation, voice interaction—each iteration advancing at an extraordinary pace. It became evident that we were entering the age of artificial intelligence.
+
+I found myself experiencing the same sense of wonder I had felt when I first encountered computers. Once again, I was faced with a technology so powerful and far-reaching that it seemed almost magical.
+
+But I have learned this lesson before: the true value of a technology lies not in its sophistication, but in its application.
+
+Today, the world is still in the early stages of understanding how to apply AI effectively. While promising use cases exist, we have yet to fully realize its potential to drive transformative, large-scale impact. That moment is coming—but I recognize that I am not yet fully equipped to contribute to it in the way I aspire to.
+
+To do so, I need to deepen both my technical understanding and my ability to design and manage systems that create real-world value. This is precisely why I am drawn to the Master’s in Management Information Systems at ISEG.
+
+The program’s focus on planning, developing, and integrating information systems, alongside managing their implementation and impact within organizations, aligns directly with my experience and aspirations. Rather than treating technology in isolation, it emphasizes its role within a broader organizational and human context—something I have come to value deeply in my professional journey.
+
+Courses such as Information Systems Planning, IT Project Management, and Decision Systems directly mirror the challenges I have encountered in practice, while areas like data management and information security will strengthen the technical depth I seek. Equally important is the program’s strong connection to industry and its focus on real-world application, ensuring that learning translates into tangible impact.
+
+I am particularly motivated by the opportunity to operate at the intersection of technology and management—to not only understand emerging technologies like AI, but to apply them responsibly and effectively to solve meaningful problems.
+
+I do not want to observe this shift from the sidelines. I want to be part of it—to contribute, to build, and to help ensure that this new form of “magic” is translated into real, measurable impact.
+
+The Master’s in Management Information Systems at ISEG represents the ideal environment for this next step: a place where I can refine my technical foundation, deepen my strategic thinking, and collaborate with others who will help shape the future of how technology serves society.
+
+
+I studied Computer Science in my undergrad, my mind was blown.
+
+Before then computers to me were nothing more than fancy TVs, devices that played songs and movies.
+
+During my degree I learn how they work, how to programme them, how to harness their power.
+
+Complex arithmetic? Done instantly, getting the 500th character of pie? instant.
+
+And it's not just the raw processing power, they'll do 1 million tasks and do the last one as well as they did the first, they'll do things on a schedule, they'll store all the world's knowledge.
+
+They are outright magic, everybody must have one, the potential is limitless.
+
+And yet despite having them for decades the world is far from perfect.
+
+I came to learn a technology is judged by its impact, not how technically impressive it is. The steam engine drove the growth seen in the industrail revolution not because of the engineering marvel but because distant towns were now that much closer, a job that took 10 men 10 ten to do could now be done by a machine in a day, this drove real change in people's lives.
+
+So as imprevise as computers are how they are put to work for humanity is what really counts.
+
+Which is why I got into product management after graduation.
+
+While at it I talked to a CEO and got to undersatnd his vision of the vision of the future, the direction in which he'd like the company to go. I also talked to a clerk in a backoffice in the same company, I got to understand his frustrations and how he would improve things, I got to think of how it could all be brought together, only then did computers come into the picture, the problem is understood, the solution clear, all's that need is the technology to makew it happen. When it happens profits go up, feelings of job satisfication increase, output increases, employees spend more time with family, a compounding of positives.
+
+And that is where I spent my career, undersrtanding problems, crafting solutions, bringing together teams to implement them, and all was well with the world.
+
+Then i got the small hints of a storm brewing.
+
+Was nothing more than a curiosity at first, a simple text box, type something and you get a response, type a follow up and you get a follow up response.
+
+You however quickly realised this was something different.
+
+The responses were not only technically accurate but... warm, human like. And that was version 1.0
+
+Before long, there is code generation, and image generation, and voice, each orders of magnitude better than the last.
+
+The age of AI was upon us.
+
+I felt myself feeling that same magic I felt when I discovered computers, a technology so impressive and its potential so far reaching that it can only be described as magic.
+
+I've been here before, it's not about how impressive the technology is, it's about the impact it can bring.
+
+The entire world is still figuring this out, there may be some legitimate uses deployed here and there but we are yet to really learn how to use this new found magic to have the impact of the steam engine and the microchip, but it's coming, and I am unprepared.
+
+I need to reskill, i need to develop an understanding and intuition of what this new technology is, so when I come across a problem in the world I figure out whether it's a problem that can partly or wholly be solved by the right AI deployment.
+
+This is what this program will provide, not only will I get the technicals, I'll learn from those driving the revoltuion, learn side by side with those who'll drive the next generation of change, I'll be part of the wave, not seated on the sidelines wondering where it will go next.
